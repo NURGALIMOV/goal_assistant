@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+allprojects {
+    group = 'ru.inur'
+    version = '0.0.1-SNAPSHOT'
+}
+
+subprojects {
+    apply plugin: 'idea'
+    apply plugin: 'java'
+
+    sourceCompatibility = '17'
+    repositories {
+        mavenCentral()
+        mavenLocal()
+    }
+}

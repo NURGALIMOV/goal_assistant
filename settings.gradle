@@ -1,0 +1,4 @@
+rootProject.name = 'mentor'
+include 'mentor_api'
+include 'mentor'
+include 'mentor_db'
